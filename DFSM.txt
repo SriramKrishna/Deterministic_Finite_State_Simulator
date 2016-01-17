@@ -1,0 +1,21 @@
+# Start state
+q0
+
+# Set of states
+q0 q1
+
+# Set of possible symbols
+A B
+
+# Set of finishing states
+q1
+
+# Transition table
+q0 A q0
+
+q0 B q1
+
+q1 A q1
+
+q1 B q0
+
